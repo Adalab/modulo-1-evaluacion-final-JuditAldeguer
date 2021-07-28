@@ -1,0 +1,28 @@
+.main {
+  background-color: $white;
+  &__info-container {
+    width: 100%;
+    height: 376px;
+    &--small {
+      color: $lightblue;
+      font-size: 14px;
+      font-family: $Roboto;
+    }
+    &--article {
+      &__title {
+        font-family: $RobotoSlab;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      &__text {
+        font-family: $Roboto;
+        font-size: 18px;
+      }
+    }
+  }
+
+  &__reasons-container {
+    width: 100%;
+    height: 624px;
+  }
+}
