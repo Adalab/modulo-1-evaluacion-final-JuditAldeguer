@@ -25,10 +25,14 @@ li {
   .header .header__textcontainer {
     padding: 284px 15px 45px 15px; }
     .header .header__textcontainer--title {
+      font-family: "Roboto Slab", serif;
+      font-weight: bold;
       line-height: 55px;
       font-size: 42px;
       /*pendiente-----------------------------------------------*/ }
     .header .header__textcontainer--small {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
       padding-top: 10px;
       font-size: 16px; }
   .header .header__scroll-down-container {
