@@ -1,22 +1,38 @@
 .main {
   background-color: $white;
   &__info-container {
-    width: 100%;
-    height: 376px;
+    margin: 30px 15px 45px 15px;
     &--small {
       color: $lightblue;
       font-size: 14px;
       font-family: $Roboto;
+      padding-bottom: 1px;
     }
     &--article {
       &__title {
         font-family: $RobotoSlab;
         font-size: 24px;
         font-weight: bold;
+        text-transform: capitalize;
+        padding-bottom: 15px;
       }
       &__text {
+        text-align: justify;
         font-family: $Roboto;
         font-size: 18px;
+        padding-bottom: 30px;
+      }
+    }
+    &--button {
+      &__link {
+        display: inline-block;
+        color: $bright-orange;
+        border: 2px solid $bright-orange;
+        border-radius: 22.5px;
+        width: 76px;
+        height: 45px;
+        padding: 13px 25px 13px 25px;
+        margin: 0px 230px 0 0;
       }
     }
   }
