@@ -6,8 +6,40 @@
 li {
   list-style-type: none; }
 
-.h1 {
-  color: #0271bc;
-  font-size: 60px; }
+.header {
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  color: #ffffff;
+  text-align: center; }
+  .header .header__menucontainer {
+    background-color: #304268;
+    position: fixed;
+    width: 44px;
+    height: 44px; }
+    .header .header__menucontainer--menu {
+      display: block;
+      padding: 15px 14px 15px 14px; }
+  .header .header__textcontainer {
+    padding: 284px 15px 45px 15px; }
+    .header .header__textcontainer--title {
+      line-height: 55px;
+      font-size: 42px;
+      /*pendiente-----------------------------------------------*/ }
+    .header .header__textcontainer--small {
+      padding-top: 10px;
+      font-size: 16px; }
+  .header .header__scroll-down-container {
+    display: inline-block;
+    margin: 0px 137px 53px 137px;
+    width: 45px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 22px; }
+    .header .header__scroll-down-container--img {
+      width: 20px;
+      margin: 15px 13px 15px 13px; }
 
 /*# sourceMappingURL=main.css.map */
