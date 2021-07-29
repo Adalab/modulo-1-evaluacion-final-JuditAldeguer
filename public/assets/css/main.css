@@ -116,13 +116,13 @@ a {
 
 /*libre*/
 .main__info-container {
-  margin: 30px 15px 45px 15px; }
+  padding: 30px 15px 45px 15px; }
   @media (min-width: 768px) {
     .main__info-container {
-      margin: 30px 40px 60px 40px; } }
+      padding: 30px 40px 60px 40px; } }
   @media (min-width: 1200px) {
     .main__info-container {
-      margin: 60px 275px 60px 275px; } }
+      padding: 60px 275px 60px 275px; } }
   .main__info-container--small {
     color: #8ccbea;
     font-size: 14px;
@@ -249,9 +249,6 @@ a {
   display: flex;
   flex-direction: column;
   padding: 0px 0 45px 0; }
-  @media (min-width: 768px) {
-    .footer {
-      flex-direction: row; } }
   .footer__arrow {
     margin-top: -22.5px;
     margin-left: auto;
@@ -276,7 +273,12 @@ a {
     .footer__small--heart {
       color: #f26002; }
 
-.page {
+body {
   width: 100vw; }
+
+.page {
+  width: 100%;
+  background-color: green;
+  /* s'a de treure*/ }
 
 /*# sourceMappingURL=main.css.map */

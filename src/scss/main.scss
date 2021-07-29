@@ -7,6 +7,10 @@
 @import "layout/page";
 @import "layout/footer";
 
-.page {
+body {
   width: 100vw;
+}
+.page {
+  width: 100%;
+  background-color: green; /* s'a de treure*/
 }
