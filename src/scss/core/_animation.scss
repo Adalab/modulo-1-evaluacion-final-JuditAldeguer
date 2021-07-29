@@ -1,14 +1,14 @@
 @keyframes spin {
   from {
-    background-color: $white;
+    background-color: $ice-blue;
     transform: rotate(0deg);
   }
   25% {
-    background-color: $ice-blue;
+    background-color: $cerulean;
     transform: rotate(90deg);
   }
   50% {
-    background-color: $lightblue;
+    background-color: $dark-grey-blue;
     transform: rotate(180deg);
   }
   75% {
@@ -17,6 +17,6 @@
   }
   100% {
     background-color: $dark-grey-blue;
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 }
