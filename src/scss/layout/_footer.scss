@@ -16,6 +16,7 @@
     line-height: 60px;
     background-color: $white;
     border-radius: 22.5px;
+    animation: 3s infinite alternate spin; /*da error - se mueve a bajo*/
   }
   &__nav {
     text-transform: uppercase;
