@@ -41,14 +41,16 @@ a {
       font-size: 16px; }
   .header .header__scroll-down-container {
     display: inline-block;
-    margin: 0px 137px 53px 137px;
+    margin-bottom: 53px;
+    margin-left: auto;
+    margin-right: auto;
     width: 45px;
     height: 45px;
     background-color: #ffffff;
     border-radius: 22px; }
     .header .header__scroll-down-container--img {
       width: 20px;
-      margin: 15px 13px 15px 13px; }
+      margin: 16px 13px 16px 13px; }
 
 .main {
   background-color: #ffffff; }
@@ -129,7 +131,6 @@ a {
   flex-direction: column;
   padding: 60px 0 45px 0; }
   .footer__arrow {
-    position: relative;
     transform: translateY(-82.5px);
     margin-left: auto;
     margin-right: auto;

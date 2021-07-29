@@ -33,14 +33,16 @@
   }
   .header__scroll-down-container {
     display: inline-block;
-    margin: 0px 137px 53px 137px;
+    margin-bottom: 53px;
+    margin-left: auto;
+    margin-right: auto;
     width: 45px;
     height: 45px;
     background-color: $white;
     border-radius: 22px;
     &--img {
       width: 20px;
-      margin: 15px 13px 15px 13px;
+      margin: 16px 13px 16px 13px;
     }
   }
 }
