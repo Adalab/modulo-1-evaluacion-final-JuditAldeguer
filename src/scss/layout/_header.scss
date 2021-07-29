@@ -2,13 +2,17 @@
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-position: center;
-  width: 100vw;
   height: 100vh;
+  width: 100%; /*no hace efecto*/
   color: $white;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   .header__menucontainer {
-    background-color: $dark-grey-blue;
     position: fixed;
+    top: 0;
+    background-color: $dark-grey-blue;
     width: 44px;
     height: 44px;
     &--menu {
@@ -17,12 +21,13 @@
     }
   }
   .header__textcontainer {
-    padding: 284px 15px 45px 15px;
+    margin: 284px 15px 45px 15px;
+
     &--title {
       font-family: $RobotoSlab;
       font-weight: bold;
       line-height: 55px;
-      font-size: 42px; /*pendiente-----------------------------------------------*/
+      font-size: 42px;
     }
     &--small {
       font-family: $Roboto;

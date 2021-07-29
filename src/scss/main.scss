@@ -4,5 +4,8 @@
 // @import 'components/links';
 @import "layout/header";
 @import "layout/page";
-@import 'layout/footer';
-// @import 'pages/index';
+@import "layout/footer";
+
+.page {
+  width: 100vw;
+}
