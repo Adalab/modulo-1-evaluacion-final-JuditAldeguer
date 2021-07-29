@@ -7,6 +7,17 @@
   display: flex;
   flex-direction: column;
   padding: 0px 0 45px 0;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    padding: 45px 40px 45px 40px;
+  }
+  @media (min-width: 768px) {
+    text-align: left;
+    padding: 45px 370px 45px 370px;
+  }
   &__arrow {
     margin-top: -22.5px;
     margin-left: auto;
@@ -17,9 +28,17 @@
     background-color: $white;
     border-radius: 22.5px;
     animation: 3s infinite spin;
+    @media (min-width: 768px) {
+      position: absolute;
+      margin-top: -67.5px;
+      text-align: center;
+    }
   }
   &__nav1 {
     padding-top: 60px;
+    @media (min-width: 768px) {
+      padding-top: 0px;
+    }
   }
   &__nav {
     text-transform: uppercase;
@@ -33,6 +52,9 @@
     font-size: 14px;
     &--heart {
       color: $bright-orange;
+    }
+    @media (min-width: 768px) {
+      order: -1;
     }
   }
 }
