@@ -86,7 +86,13 @@ a {
     border-radius: 22.5px;
     width: 76px;
     height: 45px;
-    padding: 13px 25px 13px 25px; }
+    padding: 13px 25px 13px 25px;
+    transition: transform 0.5s ease-in-out, background-color 1s ease-in-out; }
+    .main__info-container--button__link:hover {
+      color: #ffffff;
+      font-weight: bolder;
+      background-color: #f26002;
+      transform: scale(1.5); }
 
 /*grid*/
 .main__reasons-container {
@@ -134,7 +140,14 @@ a {
     margin-top: 15px;
     margin-bottom: 60px;
     grid-row: 5/5;
-    grid-column: 2/3; }
+    grid-column: 2/3;
+    transition: transform 0.5s ease-in-out, color 1s ease-in-out; }
+    .main__reasons-container--button:hover {
+      color: #f26002;
+      font-weight: bolder;
+      background-color: #ffffff;
+      border: 2px double #f26002;
+      transform: scale(1.5); }
 
 .footer {
   background-color: #304268;
