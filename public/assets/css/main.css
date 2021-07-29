@@ -164,14 +164,17 @@ a {
   width: 100%;
   height: 100%;
   display: grid;
-  align-items: center;
   justify-items: center;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr); }
   @media (min-width: 768px) {
     .main__reasons-container {
       grid-template-rows: repeat(3, 1fr);
-      grid-template-columns: repeat(3, 1fr); } }
+      grid-template-columns: repeat(3, 1fr);
+      padding: 30px 40px 60px 40px; } }
+  @media (min-width: 1200px) {
+    .main__reasons-container {
+      padding: 60px 80px 60px 80px; } }
   .main__reasons-container--title {
     font-family: "Roboto Slab", serif;
     font-weight: bold;
@@ -183,9 +186,13 @@ a {
     @media (min-width: 768px) {
       .main__reasons-container--title {
         grid-column: 1/4;
-        grid-row: 1/2; } }
+        grid-row: 1/2;
+        margin-top: 0px; } }
   .main__reasons-container--reasons {
     margin: 0px 68px 0px 68px; }
+    @media (min-width: 768px) {
+      .main__reasons-container--reasons {
+        margin: 0px 0px 0px 0px; } }
     .main__reasons-container--reasons__title {
       font-family: "Roboto Slab", serif;
       font-weight: bold;
@@ -232,7 +239,9 @@ a {
     @media (min-width: 768px) {
       .main__reasons-container--button {
         grid-row: 3/4;
-        grid-column: 1/4; } }
+        grid-column: 1/4;
+        margin-top: 60px;
+        margin-bottom: 0px; } }
     .main__reasons-container--button:hover {
       color: #f26002;
       font-weight: bolder;
