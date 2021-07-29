@@ -79,6 +79,12 @@ a {
     .header .header__scroll-down-container--img {
       width: 20px;
       margin: 16px 13px 16px 13px; }
+    @media (min-width: 768px) {
+      .header .header__scroll-down-container {
+        margin-bottom: 45px; } }
+    @media (min-width: 1200px) {
+      .header .header__scroll-down-container {
+        margin-bottom: 13px; } }
 
 .main {
   background-color: #ffffff; }
