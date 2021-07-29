@@ -11,37 +11,37 @@ a {
 
 @-webkit-keyframes spin {
   from {
-    background-color: #ffffff;
+    background-color: #eff9ff;
     transform: rotate(0deg); }
   25% {
-    background-color: #eff9ff;
+    background-color: #0271bc;
     transform: rotate(90deg); }
   50% {
-    background-color: #8ccbea;
+    background-color: #304268;
     transform: rotate(180deg); }
   75% {
     background-color: #0271bc;
     transform: rotate(270deg); }
   100% {
     background-color: #304268;
-    transform: rotate(360deg); } }
+    transform: rotate(0deg); } }
 
 @keyframes spin {
   from {
-    background-color: #ffffff;
+    background-color: #eff9ff;
     transform: rotate(0deg); }
   25% {
-    background-color: #eff9ff;
+    background-color: #0271bc;
     transform: rotate(90deg); }
   50% {
-    background-color: #8ccbea;
+    background-color: #304268;
     transform: rotate(180deg); }
   75% {
     background-color: #0271bc;
     transform: rotate(270deg); }
   100% {
     background-color: #304268;
-    transform: rotate(360deg); } }
+    transform: rotate(0deg); } }
 
 .header {
   background-image: url("../images/cover.jpg");
@@ -200,9 +200,8 @@ a {
     line-height: 60px;
     background-color: #ffffff;
     border-radius: 22.5px;
-    -webkit-animation: 3s infinite alternate spin;
-    animation: 3s infinite alternate spin;
-    /*da error - se mueve a bajo*/ }
+    -webkit-animation: 3s infinite spin;
+    animation: 3s infinite spin; }
   .footer__nav1 {
     padding-top: 60px; }
   .footer__nav {
