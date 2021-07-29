@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   .header__menucontainer {
+    z-index: 99;
     position: fixed;
     top: 0;
     left: 0;
@@ -52,5 +53,31 @@
       width: 20px;
       margin: 16px 13px 16px 13px;
     }
+  }
+}
+
+/*------ MENU HAMBURGUESA ---------*/
+.popup {
+  position: absolute;
+  opacity: 0.9;
+  // top: -15px;
+  // left: -115px;
+  text-align: left;
+  background-color: $cerulean;
+  border: $white 3px solid;
+  width: max-content;
+  padding: 50px 20px 20px 20px;
+  &__link {
+    color: $white;
+    text-transform: capitalize;
+  }
+}
+
+.header__menucontainer:active {
+  border: $white 1px solid;
+  .popup {
+    position: fixed;
+    top: 0px;
+    left: 0px;
   }
 }
