@@ -144,17 +144,15 @@ a {
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  padding: 60px 0 45px 0; }
+  padding: 0px 0 45px 0; }
   .footer__arrow {
-    transform: translateY(-82.5px);
+    transform: translateY(-22.5px);
     margin-left: auto;
     margin-right: auto;
     width: 45px;
     height: 45px;
-    line-height: 55px;
+    line-height: 60px;
     background-color: #ffffff;
-    border: black solid 2px;
-    /*pendiente eliminar borde*/
     border-radius: 22.5px; }
   .footer__nav {
     text-transform: uppercase;
