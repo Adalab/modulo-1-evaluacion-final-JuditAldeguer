@@ -88,27 +88,7 @@ a {
         margin-bottom: 13px; } }
 
 /*------ MENU HAMBURGUESA ---------*/
-.popup {
-  position: absolute;
-  opacity: 0.9;
-  text-align: left;
-  background-color: #0271bc;
-  border: #ffffff 3px solid;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  padding: 50px 20px 20px 20px; }
-  .popup__link {
-    color: #ffffff;
-    text-transform: capitalize; }
-
-.header__menucontainer:active {
-  border: #ffffff 1px solid; }
-  .header__menucontainer:active .popup {
-    position: fixed;
-    top: 0px;
-    left: 0px; }
-
+/* OPCIOIN 2 */
 .main {
   background-color: #ffffff; }
 
