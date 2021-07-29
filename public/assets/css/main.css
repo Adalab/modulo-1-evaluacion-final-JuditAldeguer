@@ -116,17 +116,8 @@ a {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    padding: 10px 0 10px 0; }
-  .main__reasons-container--arrow {
-    transform: translateY(22px);
-    width: 45px;
-    height: 45px;
-    line-height: 55px;
-    background-color: #ffffff;
-    border: black solid 2px;
-    /*pendiente eliminar borde*/
-    border-radius: 22.5px;
-    margin-top: 45px; }
+    padding: 10px 0 10px 0;
+    margin-bottom: 60px; }
 
 .footer {
   background-color: #304268;
@@ -137,6 +128,18 @@ a {
   display: flex;
   flex-direction: column;
   padding: 60px 0 45px 0; }
+  .footer__arrow {
+    position: relative;
+    transform: translateY(-82.5px);
+    margin-left: auto;
+    margin-right: auto;
+    width: 45px;
+    height: 45px;
+    line-height: 55px;
+    background-color: #ffffff;
+    border: black solid 2px;
+    /*pendiente eliminar borde*/
+    border-radius: 22.5px; }
   .footer__nav {
     text-transform: uppercase;
     padding: 0 0 30px 0; }
