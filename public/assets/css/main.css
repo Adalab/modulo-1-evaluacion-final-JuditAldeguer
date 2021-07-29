@@ -31,7 +31,6 @@ a {
   75% {
     background-color: #0271bc; } }
 
-/*no hace exactamente lo que yo le he pedido -- pendiente revisar */
 .header {
   background-image: url("../images/cover.jpg");
   background-size: cover;
