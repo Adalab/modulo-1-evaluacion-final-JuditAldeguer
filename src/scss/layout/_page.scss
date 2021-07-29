@@ -80,13 +80,12 @@
     padding: 10px 0 10px 0;
   }
   &--arrow {
-    // position: relative;
-    // transform: translateY(-20px);
+    transform: translateY(22px);
     width: 45px;
     height: 45px;
     line-height: 55px;
     background-color: $white;
-    border: black solid 2px;
+    border: black solid 2px; /*pendiente eliminar borde*/
     border-radius: 22.5px;
     margin-top: 45px;
   }
