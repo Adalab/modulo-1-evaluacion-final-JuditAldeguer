@@ -7,6 +7,9 @@
   display: flex;
   flex-direction: column;
   padding: 0px 0 45px 0;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
   &__arrow {
     margin-top: -22.5px;
     margin-left: auto;

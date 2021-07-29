@@ -214,6 +214,9 @@ a {
   display: flex;
   flex-direction: column;
   padding: 0px 0 45px 0; }
+  @media (min-width: 768px) {
+    .footer {
+      flex-direction: row; } }
   .footer__arrow {
     margin-top: -22.5px;
     margin-left: auto;
