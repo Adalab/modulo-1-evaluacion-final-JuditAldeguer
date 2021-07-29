@@ -2,24 +2,28 @@
   <include src="./page-partials/info.html"></include>
   <section id="reasons" class="main__reasons-container">
     <h2 class="main__reasons-container--title">3 Reasons to purchase</h2>
-    <include
-      class="reason1"
-      src="./page-partials/reasons.html"
-      title="Ut sed metus"
-      text="Lorem ipsum dolor sit, amet consectetur."
-    ></include>
-    <include
-      class="reason2"
-      src="./page-partials/reasons.html"
-      title="Curabitur ac erat"
-      text="Mauris mattis urna quis lorem molestie."
-    ></include>
-    <include
-      class="reason3"
-      src="./page-partials/reasons.html"
-      title="Morbi dictum"
-      text="Aliquam in dolor et dolor tincidunt."
-    ></include>
+    <div class="reason1">
+      <include
+        src="./page-partials/reasons.html"
+        title="Ut sed metus"
+        text="Lorem ipsum dolor sit, amet consectetur."
+      ></include>
+    </div>
+    <div class="reason2">
+      <include
+        src="./page-partials/reasons.html"
+        title="Curabitur ac erat"
+        text="Mauris mattis urna quis lorem molestie."
+      ></include>
+    </div>
+    <div class="reason3">
+      <include
+        number="reason3"
+        src="./page-partials/reasons.html"
+        title="Morbi dictum"
+        text="Aliquam in dolor et dolor tincidunt."
+      ></include>
+    </div>
     <a
       href="https://adalab.es/"
       target="_blank"
