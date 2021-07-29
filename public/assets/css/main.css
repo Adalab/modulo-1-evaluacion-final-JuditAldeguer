@@ -7,6 +7,7 @@
 li,
 a {
   list-style-type: none;
+  outline: none;
   text-decoration: none; }
 
 .header {
@@ -129,6 +130,7 @@ a {
   background-color: #304268;
   text-align: center;
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -136,9 +138,12 @@ a {
   .footer__nav {
     text-transform: uppercase;
     padding: 0 0 30px 0; }
+    .footer__nav--a {
+      color: #ffffff; }
   .footer__small {
-    text-transform: lowercase; }
-    .footer__small__heart {
+    text-transform: lowercase;
+    font-size: 14px; }
+    .footer__small--heart {
       color: #f26002; }
 
 /*# sourceMappingURL=main.css.map */
