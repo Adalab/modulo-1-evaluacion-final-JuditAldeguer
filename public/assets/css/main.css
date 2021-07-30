@@ -42,7 +42,7 @@ a {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center; }
   .header .header__menucontainer {
     position: fixed;
@@ -54,7 +54,6 @@ a {
     .header .header__menucontainer--menu {
       padding: 15px 14px 15px 14px; }
   .header .header__textcontainer {
-    margin: 284px 15px 45px 15px;
     width: 15em; }
     @media (min-width: 768px) {
       .header .header__textcontainer {
