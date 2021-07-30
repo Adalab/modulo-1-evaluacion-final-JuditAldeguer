@@ -36,7 +36,7 @@ Aqui dejo las anotaciones para la evaluación y también más a bajo he dejado l
 - Cómo se instala  
   Gracias al Starter-Kit la instalación es muy simple, únicamente se precisa de _Visual Studio Code_ con las correspondientes extensiones, un navegador como, por ejemplo, _Chrome_ y _Github_.
 
-- Cómo se ejecuta
+- Cómo se ejecuta  
   Una vez se dispone de estas herramientas bien ubicadas, con los comandos _npm install_ y _npm start_ puedes empezar a hacer uso del Starter-Kit y sus facilidades.
 
 Espero que te guste mi trabajo y que puedas darme indicaciones para seguir mejorando.  
