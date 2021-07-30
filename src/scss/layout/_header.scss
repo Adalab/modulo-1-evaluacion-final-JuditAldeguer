@@ -80,7 +80,7 @@
   margin: auto;
   width: fit-content;
   font-family: Arial, Helvetica, sans-serif;
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 5px;
   text-align: left;
@@ -105,7 +105,7 @@
 .ul-principal li ul {
   display: none;
   position: absolute;
-  min-width: 85px;
+  width: 110px;
 }
 
 .ul-principal li:hover > ul {
@@ -115,7 +115,7 @@
 .ul-principal li ul li {
   position: relative;
   ul {
-    left: 85px;
+    left: 110px;
     top: 0;
   }
 }
