@@ -63,29 +63,61 @@
 }
 
 /*------ MENU HAMBURGUESA ---------*/
-// .popup {
-//   position: absolute;
+// .nav #cerrar {
 //   opacity: 0.9;
-//   top: -15px;
-//   left: -115px;
-//   text-align: left;
 //   background-color: $cerulean;
-//   border: $white 3px solid;
-//   width: max-content;
-//   padding: 50px 20px 20px 20px;
-//   &__link {
-//     color: $white;
-//     text-transform: capitalize;
-//   }
+//   border: $white 2px solid;
+//   color: $white;
+//   text-transform: capitalize;
+//   padding: 2px 4px;
+//   display: block;
+//   text-align: right; /*no es funcional pero va bien saber cómo colocar la "x"*/
 // }
+.nav {
+  border: $white 2px solid;
+}
+#menu {
+  margin: auto;
+  width: fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 20px;
+  left: 5px;
+  text-align: left;
+}
+.ul-principal li a {
+  opacity: 0.9;
+  background-color: $cerulean;
+  border: $white 2px solid;
+  color: $white;
+  text-transform: capitalize;
+  padding: 2px 4px;
+  display: block;
+  &:hover {
+    background-color: #0272bc77;
+  }
+}
 
-// .header__menucontainer:active {
-//   border: $white 1px solid;
-//   .popup {
-//     position: fixed;
-//     top: 0px;
-//     left: 0px;
-//   }
-// }
+.ul-principal > li {
+  float: inline-end;
+}
 
-/* OPCIOIN 2 */
+.ul-principal li ul {
+  display: none;
+  position: absolute;
+  min-width: 85px;
+}
+
+.ul-principal li:hover > ul {
+  display: block;
+}
+
+.ul-principal li ul li {
+  position: relative;
+  ul {
+    left: 85px;
+    top: 0;
+  }
+}
+
+/*------ MENU HAMBURGUESA opcion 2 ---------*/

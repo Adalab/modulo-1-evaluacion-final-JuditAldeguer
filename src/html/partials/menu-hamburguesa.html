@@ -1,21 +1,43 @@
-<div class="header__menucontainer">
-  <a href="/">
-    <img
-      class="header__menucontainer--menu"
-      src="./assets/images/ico-menu.svg"
-      alt="menu"
-    />
-  </a>
+<div id="menu">
+  <nav class="nav">
+    <ul class="ul-principal">
+      <li>
+        <a href="/">
+          <div class="header__menucontainer">
+            <img
+              class="header__menucontainer--menu"
+              src="./assets/images/ico-menu.svg"
+              alt="menu"
+            />
+          </div>
+        </a>
+        <ul>
+          <li><a href="#header">Back to top</a></li>
+          <li><a href="#reasons">Go to center</a></li>
+          <li>
+            <a href="#footer">Go to bottom</a>
+            <ul>
+              <li><a href="#header">Submenu 1</a></li>
+              <li><a href="#reasons">Submenu 1</a></li>
+              <li>
+                <a href="#footer">Submenu 1</a>
+                <ul>
+                  <li><a href="#header">Submenu 2</a></li>
+                  <li><a href="#reasons">Submenu 2</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://adalab.es/" target="_blank">Home page</a>
+            <ul>
+              <li><a href="#header">Submenu 1</a></li>
+              <li><a href="#reasons">Submenu 1</a></li>
+              <li><a href="#footer">Submenu 1</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
 </div>
-<nav class="popup">
-  <ul>
-    <li><a class="popup__link" href="#header">Back to top</a></li>
-    <li><a class="popup__link" href="#reasons">Go to center</a></li>
-    <li><a class="popup__link" href="#footer">Go to bottom</a></li>
-    <li>
-      <a class="popup__link" href="https://adalab.es/" target="_blank"
-        >Home page</a
-      >
-    </li>
-  </ul>
-</nav>

@@ -88,7 +88,49 @@ a {
         margin-bottom: 13px; } }
 
 /*------ MENU HAMBURGUESA ---------*/
-/* OPCIOIN 2 */
+.nav {
+  border: #ffffff 2px solid; }
+
+#menu {
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 20px;
+  left: 5px;
+  text-align: left; }
+
+.ul-principal li a {
+  opacity: 0.9;
+  background-color: #0271bc;
+  border: #ffffff 2px solid;
+  color: #ffffff;
+  text-transform: capitalize;
+  padding: 2px 4px;
+  display: block; }
+  .ul-principal li a:hover {
+    background-color: #0272bc77; }
+
+.ul-principal > li {
+  float: inline-end; }
+
+.ul-principal li ul {
+  display: none;
+  position: absolute;
+  min-width: 85px; }
+
+.ul-principal li:hover > ul {
+  display: block; }
+
+.ul-principal li ul li {
+  position: relative; }
+  .ul-principal li ul li ul {
+    left: 85px;
+    top: 0; }
+
+/*------ MENU HAMBURGUESA opcion 2 ---------*/
 .main {
   background-color: #ffffff; }
 
