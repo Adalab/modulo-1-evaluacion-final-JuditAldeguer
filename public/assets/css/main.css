@@ -240,7 +240,7 @@ a {
       align-items: flex-start;
       text-align: left;
       padding: 45px 40px 45px 40px; } }
-  @media (min-width: 768px) {
+  @media (min-width: 1200px) {
     .footer {
       text-align: left;
       padding: 45px 370px 45px 370px; } }
