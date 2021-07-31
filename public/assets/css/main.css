@@ -46,8 +46,8 @@ a {
   align-items: center; }
   .header .header__menucontainer {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 5px;
     background-color: #0271bc;
     width: 44px;
     height: 44px; }
