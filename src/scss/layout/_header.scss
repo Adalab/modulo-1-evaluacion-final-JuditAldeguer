@@ -3,7 +3,6 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 100%; /*no hace efecto*/
   color: $white;
   text-align: center;
   display: flex;
@@ -23,10 +22,9 @@
   }
   .header__textcontainer {
     width: 16rem;
-    border: green 1px solid;
-    margin-bottom: 45px;
+    padding-bottom: 45px;
     @media (min-width: 768px) {
-      margin-bottom: 30px;
+      padding-bottom: 30px;
     }
 
     &--title {
@@ -34,9 +32,9 @@
       font-weight: bold;
       line-height: 55px;
       font-size: 2.625rem;
-      margin-bottom: 10px;
+      padding-bottom: 10px;
       @media (min-width: 768px) {
-        margin-bottom: 20px;
+        padding-bottom: 20px;
       }
     }
     &--small {
@@ -46,6 +44,7 @@
       font-size: 16px;
     }
   }
+
   .header__scroll-down-container {
     display: inline-block;
     margin-bottom: 53px;

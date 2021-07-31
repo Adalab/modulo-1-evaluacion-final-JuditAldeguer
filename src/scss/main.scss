@@ -6,7 +6,6 @@
 @import "layout/footer";
 
 body {
-  width: 100vw;
+  width: 100%; //esto es lo que creaba el scroll si se pone en unidades vw - desaparece al poder %
   font-size: 16px;
-  background-color: brown;
 }
