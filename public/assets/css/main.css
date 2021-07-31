@@ -49,20 +49,26 @@ a {
     top: 5px;
     left: 5px;
     background-color: #0271bc;
-    width: 44px;
-    height: 44px; }
+    width: 2.75rem;
+    height: 2.75rem; }
     .header .header__menucontainer--menu {
       padding: 15px 14px 15px 14px; }
   .header .header__textcontainer {
-    width: 15em; }
+    width: 16rem;
+    border: green 1px solid;
+    margin-bottom: 45px; }
     @media (min-width: 768px) {
       .header .header__textcontainer {
-        margin: 384px 0 30px 0; } }
+        margin-bottom: 30px; } }
     .header .header__textcontainer--title {
       font-family: "Roboto Slab", serif;
       font-weight: bold;
       line-height: 55px;
-      font-size: 42px; }
+      font-size: 2.625rem;
+      margin-bottom: 10px; }
+      @media (min-width: 768px) {
+        .header .header__textcontainer--title {
+          margin-bottom: 20px; } }
     .header .header__textcontainer--small {
       font-family: "Roboto", sans-serif;
       font-weight: 400;
@@ -279,9 +285,8 @@ a {
         order: -1; } }
 
 body {
-  width: 100vw; }
-
-.page {
-  width: 100%; }
+  width: 100vw;
+  font-size: 16px;
+  background-color: brown; }
 
 /*# sourceMappingURL=main.css.map */
