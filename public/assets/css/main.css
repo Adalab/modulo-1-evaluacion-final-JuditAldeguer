@@ -36,35 +36,37 @@ a {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 100%;
-  /*no hace efecto*/
   color: #ffffff;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center; }
   .header .header__menucontainer {
     z-index: 99;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 5px;
     background-color: #0271bc;
-    width: 44px;
-    height: 44px; }
+    width: 2.75rem;
+    height: 2.75rem; }
     .header .header__menucontainer--menu {
       padding: 15px 14px 15px 14px; }
   .header .header__textcontainer {
-    margin: 284px 15px 45px 15px;
-    width: 15em; }
+    width: 16rem;
+    padding-bottom: 45px; }
     @media (min-width: 768px) {
       .header .header__textcontainer {
-        margin: 384px 0 30px 0; } }
+        padding-bottom: 30px; } }
     .header .header__textcontainer--title {
       font-family: "Roboto Slab", serif;
       font-weight: bold;
       line-height: 55px;
-      font-size: 42px; }
+      font-size: 2.625rem;
+      padding-bottom: 10px; }
+      @media (min-width: 768px) {
+        .header .header__textcontainer--title {
+          padding-bottom: 20px; } }
     .header .header__textcontainer--small {
       font-family: "Roboto", sans-serif;
       font-weight: 400;
@@ -182,7 +184,6 @@ a {
   text-align: center;
   color: #000000;
   width: 100%;
-  height: 100%;
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(3, 1fr);
@@ -191,6 +192,8 @@ a {
     .main__reasons-container {
       grid-template-rows: repeat(3, 1fr);
       grid-template-columns: repeat(3, 1fr);
+      -moz-column-gap: 30px;
+      column-gap: 30px;
       padding: 30px 40px 60px 40px; } }
   @media (min-width: 1200px) {
     .main__reasons-container {
@@ -201,6 +204,7 @@ a {
     font-size: 24px;
     text-transform: capitalize;
     margin-top: 30px;
+    margin-top: 45px;
     grid-column: 1/4;
     grid-row: 1/2; }
     @media (min-width: 768px) {
@@ -254,20 +258,13 @@ a {
     margin-top: 15px;
     margin-bottom: 60px;
     grid-row: 5/5;
-    grid-column: 2/3;
-    transition: transform 0.5s ease-in-out, color 1s ease-in-out; }
+    grid-column: 2/3; }
     @media (min-width: 768px) {
       .main__reasons-container--button {
-        grid-row: 3/4;
+        grid-row: 4/4;
         grid-column: 1/4;
         margin-top: 60px;
         margin-bottom: 0px; } }
-    .main__reasons-container--button:hover {
-      color: #f26002;
-      font-weight: bolder;
-      background-color: #ffffff;
-      border: 2px double #f26002;
-      transform: scale(1.5); }
 
 .footer {
   background-color: #304268;
@@ -285,7 +282,7 @@ a {
       align-items: flex-start;
       text-align: left;
       padding: 45px 40px 45px 40px; } }
-  @media (min-width: 768px) {
+  @media (min-width: 1200px) {
     .footer {
       text-align: left;
       padding: 45px 370px 45px 370px; } }
@@ -325,11 +322,7 @@ a {
         order: -1; } }
 
 body {
-  width: 100vw; }
-
-.page {
   width: 100%;
-  background-color: green;
-  /* s'a de treure*/ }
+  font-size: 16px; }
 
 /*# sourceMappingURL=main.css.map */
