@@ -10,7 +10,8 @@ Aqui dejo las anotaciones para la evaluación y también más a bajo he dejado l
 
 - Dónde localizarlo  
    Mi trabajo se encuentra en el repositorio de Github Page y puedes encontrar facilmente el link de acceso a la última versión de mi **rama master** en el apartado _About_. [Acceder al enlace](http://beta.adalab.es/modulo-1-evaluacion-final-JuditAldeguer/)  
-   Deseo destacar que he confeccionado un **menú hamburguesa** solamente con HTML y CSS el cual + un icono en el título del navegados, que se encuentran en mi **rama InProcess** para que este no alterara el aspecto del diseño solicitado.
+   Deseo destacar que he confeccionado un **menú hamburguesa** solamente con HTML y CSS el cual + un icono en el título del navegados, que se encuentran en mi **rama NewBranch** para que este no alterara el aspecto del diseño solicitado.  
+   Indicar que también existe uns tercera rama la cual he usado para realizar las pruebas y no es un producto final (rama _InProcess_).
 
 - Qué es  
   Se trata de una pagina inicio con aspecto limipo según el diseño solicitado.
