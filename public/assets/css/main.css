@@ -221,6 +221,27 @@ a {
         margin-top: 60px;
         margin-bottom: 0px; } }
 
+/*-----*/
+.special-offer {
+  width: 100%;
+  background-color: #f26002;
+  flex-direction: column;
+  text-align: center; }
+  .special-offer__title {
+    padding-bottom: 10px; }
+  @media (min-width: 768px) {
+    .special-offer__subtitle {
+      width: 20%; } }
+  .special-offer__p {
+    color: #ffffff; }
+  @media (min-width: 768px) {
+    .special-offer {
+      flex-direction: row; } }
+  @media (min-width: 768px) {
+    .special-offer__div {
+      display: flex;
+      flex-direction: row; } }
+
 .footer {
   background-color: #304268;
   text-align: center;

@@ -158,3 +158,31 @@
     // }
   }
 }
+
+/*-----*/
+.special-offer {
+  width: 100%;
+  background-color: $bright-orange;
+  flex-direction: column;
+  text-align: center;
+  &__title {
+    padding-bottom: 10px;
+  }
+  &__subtitle {
+    @media (min-width: 768px) {
+      width: 20%;
+    }
+  }
+  &__p {
+    color: $white;
+  }
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+  &__div {
+    @media (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
