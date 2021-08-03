@@ -145,9 +145,10 @@ a {
   @media (min-width: 1200px) {
     .main__info-container {
       padding: 60px 275px 60px 275px; } }
-  .main__info-container--small {
+  .main__info-container--h6 {
     color: #8ccbea;
     font-size: 14px;
+    font-weight: normal;
     font-family: "Roboto", sans-serif;
     padding-bottom: 1px; }
   .main__info-container--article {
