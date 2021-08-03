@@ -10,10 +10,11 @@
   @media (min-width: 1200px) {
     padding: 60px 275px 60px 275px;
   }
-  &--small {
+  &--h6 {
     color: $lightblue;
     font-size: 14px;
     font-family: $Roboto;
+    font-weight: normal;
     padding-bottom: 1px;
   }
   &--article {
@@ -148,13 +149,13 @@
       margin-top: 60px;
       margin-bottom: 0px;
     }
-    // transition: transform 0.5s ease-in-out, color 1s ease-in-out;
-    // &:hover {
-    //   color: $bright-orange;
-    //   font-weight: bolder;
-    //   background-color: $white;
-    //   border: 2px double $bright-orange;
-    //   transform: scale(1.5);
-    // }
+    transition: transform 0.5s ease-in-out, color 1s ease-in-out;
+    &:hover {
+      color: $bright-orange;
+      font-weight: bolder;
+      background-color: $white;
+      border: 2px double $bright-orange;
+      transform: scale(1.5);
+    }
   }
 }

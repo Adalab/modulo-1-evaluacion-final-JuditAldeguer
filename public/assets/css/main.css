@@ -100,10 +100,11 @@ a {
   @media (min-width: 1200px) {
     .main__info-container {
       padding: 60px 275px 60px 275px; } }
-  .main__info-container--small {
+  .main__info-container--h6 {
     color: #8ccbea;
     font-size: 14px;
     font-family: "Roboto", sans-serif;
+    font-weight: normal;
     padding-bottom: 1px; }
   .main__info-container--article {
     color: #000000; }
@@ -213,13 +214,20 @@ a {
     margin-top: 15px;
     margin-bottom: 60px;
     grid-row: 5/5;
-    grid-column: 2/3; }
+    grid-column: 2/3;
+    transition: transform 0.5s ease-in-out, color 1s ease-in-out; }
     @media (min-width: 768px) {
       .main__reasons-container--button {
         grid-row: 4/4;
         grid-column: 1/4;
         margin-top: 60px;
         margin-bottom: 0px; } }
+    .main__reasons-container--button:hover {
+      color: #f26002;
+      font-weight: bolder;
+      background-color: #ffffff;
+      border: 2px double #f26002;
+      transform: scale(1.5); }
 
 .footer {
   background-color: #304268;
